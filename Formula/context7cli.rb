@@ -1,16 +1,16 @@
 class Context7cli < Formula
   desc "Context7 CLI for AI agents - fetch up-to-date library documentation"
   homepage "https://github.com/tylergibbs1/context7cli"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tylergibbs1/context7cli/releases/download/v0.1.1/context7-darwin-arm64"
+      url "https://github.com/tylergibbs1/context7cli/releases/download/v0.1.2/context7-darwin-arm64"
       sha256 "b401bfd8f54c5e5c76fc42957467f67135b34adca1f7d9987d78ee376e8e0af9"
     end
     on_intel do
-      url "https://github.com/tylergibbs1/context7cli/releases/download/v0.1.1/context7-darwin-x64"
+      url "https://github.com/tylergibbs1/context7cli/releases/download/v0.1.2/context7-darwin-x64"
       sha256 "0e33dd288f5924bd2f97017a94d727adbf7892fcdcd2a68919de612d800958ca"
     end
   end
